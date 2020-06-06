@@ -1,0 +1,84 @@
+
+
+<!DOCTYPE html>
+<html>
+     <head>
+             <meta charset="utf-8"/>
+             <meta name="viewport" content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+           <link rel="stylesheet" href="../codecss/nav.css"/>
+            
+    </head>
+    <body>
+        
+         <div class="top-container">
+           <h1 style="color:#993300;">Humours stores</h1>
+           <p>Retrouvez tous les meilleurs humoure du moment, pour rester au parfum du sourir</p>
+        </div>
+        <div class="header" id="myHeader">
+            
+            <ul>
+                <li class="active"><a href="./page-index.html">Accueil</a> </li>
+                <li><a href="#">Man</a>
+                  <div class="supe-menu">
+                       <ul>
+                           <li class="hovr-me"><a href="./peuple.html">Origne</a></li>
+                           <li><a href="./nouri.html">Nourritures</a></li>
+                           <li><a href="./langue.html">Langues</a></li>
+                           <li><a href="./image.html">en image</a></li>
+                      </ul>
+                   </div>
+                </li>
+                 <li><a href="#">Etablissements</a>
+                  <div class="supe-menu">
+                       <ul>
+                           <li class="hovr-me"><a href="./enseigne.html">Ecole</a></li>
+                           <li><a href="./dam.html">Administrations</a></li>
+                           <li><a href="./rue.html">Rue</a></li>
+                           <li><a href="./image.html">en image</a></li>
+                      </ul>
+                   </div>
+                </li>
+                <li><a href="#">Tourisme</a>
+                     <div class="supe-menu">
+                       <ul>
+                           <li class="hovr-me"><a href="./cascades.html">Cascades</a></li>
+                           <li><a href="./hotel.html">Hotels</a></li>
+                           <li><a href="./foret.html"></a>Foret</li>
+                           <li><a href="./image.html">en image</a></li>
+                      </ul>
+                   </div>
+                </li>
+                <li><a href="#">Festivals</a>
+                  <div class="supe-menu">
+                       <ul>
+                           <li class="hovr-me"><a href="./nihidaley.html">Nihidaley</a></li>
+                           <li><a href="./gue.html">Guehe va</a></li>
+                           <li><a href="./gue.html">Guehe biah</a></li>
+                           <li><a href="./image.html">en image</a></li>
+                      </ul>
+                   </div>
+                </li>
+                <li><a href="#">Nous_suivre</a></li>
+                <li><a href="#">Apropos</a></li>
+             </ul>
+       </div>
+    </body>
+    
+    
+         
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+</html>

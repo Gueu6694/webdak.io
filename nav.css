@@ -1,0 +1,99 @@
+
+/*#282a28;     green    color: #101010;*/
+
+
+.top-container {
+    height: 200px;
+  padding: 30px;
+  text-align: center;
+}
+
+
+
+.Header{
+     width: 100%;
+  color: #f1f1f1;
+  height: 60px;
+background-color:#282a28;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+   background-color: #fff;
+    box-shadow: 0px 0px  8px rgba(40, 40, 40, 0.78);
+  
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.header ul{
+display: inline-flex;
+    list-style: none;
+    color: #fff;
+    margin: 0px;
+}
+
+.header ul li{
+    width: 140px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.header ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.active,.header ul li:hover{
+    background-color: green ; /* #12332;*/
+    border-radius: 3px;
+}
+
+.supe-menu{
+    display: none;
+}
+
+.header ul li:hover .supe-menu {
+ display: block;
+    position: absolute;
+    background: green;
+    margin-top: 10px;
+    margin-left: -10px;
+    
+}
+
+.header ul li:hover .supe-menu ul{
+    display: block;
+    margin: 10px;
+}
+
+.header ul li:hover .supe-menu ul li{
+width: 130px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background:transparent;
+    border-radius:0px; 
+    text-align: left;
+}
+.header ul li:hover .supe-menu ul li:last-child{
+    border-bottom: none;
+}
+.header ul li:hover .supe-menu ul li a:hover{
+    color: #101010;
+
+}
+
+
+.sup-menu-2{
+    display: none;
+}
+
+
